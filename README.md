@@ -1,4 +1,11 @@
-# CRUD JAVA MYSQL
+# CRUD JAVA MYSQL 
+
+## Objetivo do projeto
+ - Criar um CRUD (Create, Read, Update, Delete) em Java com MySQL
+ - Entender o funcionamento de um CRUD
+ - Entender o funcionamento de uma Factory
+ - Entender o funcionamento de um DAO
+ - Entender o funcionamento de um Model
 
 ## model - class Contato
 
