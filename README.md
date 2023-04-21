@@ -42,19 +42,21 @@
     - DATABASE_URL
 
 - Métodos
-    - createConnectionToMySQL()
-    - main()
+    - createConnectionToMySQL() 
+    - main() - Testa a conexão com o banco de dados
 
-## InsertContato
+## Class main, para testar os métodos do CRUD
+
+- InsertContato
     - Insere um contato no banco de dados
 
-## ReadContatos
+- ReadContatos
     - Lê todos os contatos do banco de dados
 
-## UpdateContato
+- UpdateContato
     - Atualiza um contato no banco de dados
 
-## DeleteContato
+- DeleteContato
     - Deleta um contato no banco de dados
 
 ## Maven libraries
