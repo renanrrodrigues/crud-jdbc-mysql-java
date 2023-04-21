@@ -47,16 +47,16 @@
 
 ## Class main, para testar os métodos do CRUD
 
-- InsertContato
+- InsertContato - class InsertContato
     - Insere um contato no banco de dados
 
-- ReadContatos
+- ReadContatos - class ReadContatos
     - Lê todos os contatos do banco de dados
 
-- UpdateContato
+- UpdateContato - class UpdateContato
     - Atualiza um contato no banco de dados
 
-- DeleteContato
+- DeleteContato - class DeleteContato
     - Deleta um contato no banco de dados
 
 ## Maven libraries
