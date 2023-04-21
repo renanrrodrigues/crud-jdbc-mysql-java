@@ -75,3 +75,15 @@
     
 - mysql-connector-java - Conexão com o banco de dados
 - datafaker - Gera dados aleatórios
+
+## MySQL querys
+
+    CREATE DATABASE agenda;
+
+    CREATE TABLE contatos (
+        id INT NOT NULL AUTO_INCREMENT,
+        nome VARCHAR(100) NOT NULL,
+        idade INT NOT NULL,
+        dataCadastro DATETIME NOT NULL,
+        PRIMARY KEY (id)
+    );
