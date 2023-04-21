@@ -56,3 +56,20 @@
 
 ## DeleteContato
     - Deleta um contato no banco de dados
+
+## maven libraries
+    ```
+     <dependencies>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
+        </dependency>
+        <dependency>
+            <groupId>net.datafaker</groupId>
+            <artifactId>datafaker</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+    </dependencies>
+    ```
