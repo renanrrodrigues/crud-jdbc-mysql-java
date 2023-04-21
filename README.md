@@ -57,7 +57,7 @@
 ## DeleteContato
     - Deleta um contato no banco de dados
 
-## maven libraries
+## Maven libraries
     
      <dependencies>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -73,3 +73,5 @@
         </dependency>
     </dependencies>
     
+- mysql-connector-java - Conexão com o banco de dados
+- datafaker - Gera dados aleatórios
