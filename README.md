@@ -1,20 +1,28 @@
 # CRUD JAVA MYSQL
 
-## model
+## model - class Contato
 - class Contato
 
 ## dao - class ContatoDAO
 - class ContatoDAO
 
-- 1. Create
+- Métodos da classe ContatoDAO
 
-- 2. Read
+ 1. Create
+    - 1. Criar um contato
+    - 2. Criar vários contatos
 
-- 3. Update
+ 2. Read
+    - 1. Read All
+    
+ 3. Update
+    - 1. Update
+ 
+ 4. Delete
+    - 5. Deleta um contato
+    
 
-- 4. Delete
-
-## factory
+## factory - class ConnectionFactory
 - class ConnectionFactory
 
 
