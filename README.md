@@ -1,7 +1,13 @@
 # CRUD JAVA MYSQL
 
 ## model - class Contato
-- class Contato
+
+#### class Contato
+- Atributos
+    - id AUTO_INCREMENT
+    - nome
+    - idade
+    - dataCadastro
 
 ## dao - class ContatoDAO
 
@@ -9,13 +15,12 @@
 
 - Create
     - Criar um contato
-    - Criar vários contatos
 
 - Read
     - Read All
     
 - Update
-    - Update
+    - Atualiza um contato
  
 - Delete
     - Deleta um contato
