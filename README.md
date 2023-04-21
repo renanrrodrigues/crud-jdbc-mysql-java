@@ -4,22 +4,21 @@
 - class Contato
 
 ## dao - class ContatoDAO
-- class ContatoDAO
 
 - Métodos da classe ContatoDAO
 
- 1. Create
-    - 1. Criar um contato
-    - 2. Criar vários contatos
+Create
+    - Criar um contato
+    - Criar vários contatos
 
- 2. Read
-    - 1. Read All
+Read
+    - Read All
     
- 3. Update
-    - 1. Update
+Update
+    - Update
  
- 4. Delete
-    - 5. Deleta um contato
+Delete
+    - Deleta um contato
     
 
 ## factory - class ConnectionFactory
