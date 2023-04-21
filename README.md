@@ -5,7 +5,7 @@
 
 ## dao - class ContatoDAO
 
-##### Métodos da classe ContatoDAO
+#### Métodos da classe ContatoDAO
 
 - Create
     - Criar um contato
