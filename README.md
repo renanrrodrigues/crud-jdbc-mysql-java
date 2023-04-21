@@ -1,10 +1,10 @@
 # CRUD JAVA MYSQL
 
 ## model
-- class Contato
+### - class Contato
 
 ## dao - class ContatoDAO
-- class ContatoDAO
+### - class ContatoDAO
 
 ### 1. Create
 
