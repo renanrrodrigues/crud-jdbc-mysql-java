@@ -140,7 +140,7 @@ public class ContatoDAO {
 
             pstm.execute(); // Executando a query
 
-            System.out.println("Contato atualizado com sucesso! ' \uD83D\uDE80 '");
+            System.out.println("Contato atualizado com sucesso!");
         }
         catch (Exception e){
             e.printStackTrace(); // Imprimindo o erro
