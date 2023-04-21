@@ -8,7 +8,6 @@ public class ReadContatos {
 
         ContatoDAO dao = new ContatoDAO();
 
-        Contato contato = new Contato();
 
         for (Contato c: dao.getContatos()) {
             System.out.println("Nome: " + c.getNome()+"\nIdade: "+c.getIdade()+"\n");
