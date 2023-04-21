@@ -5,19 +5,19 @@
 
 ## dao - class ContatoDAO
 
-- Métodos da classe ContatoDAO
+##### Métodos da classe ContatoDAO
 
-Create
+- Create
     - Criar um contato
     - Criar vários contatos
 
-Read
+- Read
     - Read All
     
-Update
+- Update
     - Update
  
-Delete
+- Delete
     - Deleta um contato
     
 
