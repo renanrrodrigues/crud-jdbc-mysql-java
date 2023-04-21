@@ -45,7 +45,7 @@
     - createConnectionToMySQL() 
     - main() - Testa a conexão com o banco de dados
 
-## Class main, para testar os métodos do CRUD
+## Classes para testar os métodos do CRUD
 
 - InsertContato - class InsertContato
     - Insere um contato no banco de dados
@@ -59,7 +59,7 @@
 - DeleteContato - class DeleteContato
     - Deleta um contato no banco de dados
 
-## Maven libraries
+## libraries - pom.xml gerenciador de dependências do Maven
     
      <dependencies>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -78,7 +78,7 @@
 - mysql-connector-java - Conexão com o banco de dados
 - datafaker - Gera dados aleatórios
 
-## MySQL querys
+## MySQL - querys para criar o banco de dados e a tabela
 
     CREATE DATABASE agenda;
 
