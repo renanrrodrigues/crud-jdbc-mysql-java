@@ -4,7 +4,7 @@
 
 #### class Contato
 - Atributos
-    - id AUTO_INCREMENT
+    - id (AUTO_INCREMENT)
     - nome
     - idade
     - dataCadastro
@@ -27,7 +27,25 @@
     
 
 ## factory - class ConnectionFactory
-- class ConnectionFactory
 
+#### class ConnectionFactory
+- Atributos estáticos
+    - USERNAME
+    - PASSWORD
+    - DATABASE_URL
 
+- Métodos
+    - createConnectionToMySQL()
+    - main()
 
+## InsertContato
+    - Insere um contato no banco de dados
+
+## ReadContatos
+    - Lê todos os contatos do banco de dados
+
+## UpdateContato
+    - Atualiza um contato no banco de dados
+
+## DeleteContato
+    - Deleta um contato no banco de dados

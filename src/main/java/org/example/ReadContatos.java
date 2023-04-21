@@ -3,7 +3,7 @@ package org.example;
 import br.com.agenda.dao.ContatoDAO;
 import br.com.agenda.model.Contato;
 
-public class ViewerContatos {
+public class ReadContatos {
     public static void main(String[] args) {
 
         ContatoDAO dao = new ContatoDAO();
