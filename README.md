@@ -1,18 +1,18 @@
 # CRUD JAVA MYSQL
 
 ## model
-### - class Contato
+- class Contato
 
 ## dao - class ContatoDAO
-### - class ContatoDAO
+- class ContatoDAO
 
-### 1. Create
+- 1. Create
 
-### 2. Read
+- 2. Read
 
-### 3. Update
+- 3. Update
 
-### 4. Delete
+- 4. Delete
 
 ## factory
 - class ConnectionFactory
