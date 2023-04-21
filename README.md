@@ -58,7 +58,7 @@
     - Deleta um contato no banco de dados
 
 ## maven libraries
-    ```
+    
      <dependencies>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
@@ -72,4 +72,4 @@
             <version>1.9.0</version>
         </dependency>
     </dependencies>
-    ```
+    
