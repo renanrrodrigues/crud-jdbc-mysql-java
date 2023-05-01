@@ -10,7 +10,7 @@ public class DeleteContato {
 
             Contato contato = new Contato();
 
-            contato.setId(67);
+            contato.setId(154);
 
             dao.delete(contato);
     }

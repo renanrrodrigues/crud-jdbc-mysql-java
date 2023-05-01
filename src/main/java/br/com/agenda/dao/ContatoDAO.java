@@ -33,6 +33,7 @@ public class ContatoDAO {
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
 
             // Criar um statement para executar a query
+            assert conn != null;
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
             // Adicionar os valores do contato
@@ -77,6 +78,9 @@ public class ContatoDAO {
 
         try{
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
+
+
+            assert conn != null;
 
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
@@ -131,6 +135,7 @@ public class ContatoDAO {
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
 
             // Criar um statement para executar a query
+            assert conn != null;
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
             // Adicionar os valores ao contato que serão atualizados
@@ -173,6 +178,7 @@ public class ContatoDAO {
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
 
             // Criar um statement para executar a query
+            assert conn != null;
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
             // Adicionar o id do contato que será deletado
