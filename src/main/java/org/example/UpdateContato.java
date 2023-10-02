@@ -11,7 +11,7 @@ public class UpdateContato {
 
             Contato contato = new Contato(); // instanciando o contato para salvar no banco
 
-            contato.setId(46); // id do contato que será atualizado
+            contato.setId(46L); // id do contato que será atualizado
             contato.setNome("Renan"); // setando o nome do contato
             contato.setIdade(33); // setando a idade do contato
 

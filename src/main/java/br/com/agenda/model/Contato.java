@@ -3,16 +3,16 @@ package br.com.agenda.model;
 import java.util.Date;
 
 public class Contato { // Classe modelo para o contato
-    private int id;
+    private long id;
     private String nome;
     private int idade;
     private Date dataCadastro;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

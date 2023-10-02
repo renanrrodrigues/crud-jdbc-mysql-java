@@ -33,7 +33,6 @@ public class ContatoDAO {
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
 
             // Criar um statement para executar a query
-            assert conn != null;
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
             // Adicionar os valores do contato
@@ -68,19 +67,14 @@ public class ContatoDAO {
 
         String sql = "SELECT * FROM contatos"; // SQL para selecionar todos os contatos do banco
 
-        List<Contato> contatos = new ArrayList<Contato>(); // Lista de contatos
+        List<Contato> contatos = new ArrayList<>(); // Lista de contatos
 
         Connection conn = null; // Conexão com o banco
-
         PreparedStatement pstm = null; // Statement para executar a query
-
         ResultSet rset = null; // Resultado da query
 
         try{
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
-
-
-            assert conn != null;
 
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
@@ -96,9 +90,7 @@ public class ContatoDAO {
 
                 contatos.add(contato); // Adicionando o contato na lista de contatos
             }
-
-
-
+            return contatos; // Retornando a lista de contatos
 
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -119,8 +111,6 @@ public class ContatoDAO {
                 e.printStackTrace(); // Imprimindo o erro
             }
         }
-
-        return contatos; // Retornando a lista de contatos
     }
 
     // Update
@@ -135,13 +125,12 @@ public class ContatoDAO {
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
 
             // Criar um statement para executar a query
-            assert conn != null;
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
             // Adicionar os valores ao contato que serão atualizados
             pstm.setString(1, contato.getNome()); // nome do contato que será atualizado
             pstm.setInt(2, contato.getIdade()); // idade do contato que será atualizado
-            pstm.setInt(3, contato.getId()); // id do contato que será atualizado
+            pstm.setLong(3, contato.getId()); // id do contato que será atualizado
 
             pstm.execute(); // Executando a query
 
@@ -178,11 +167,10 @@ public class ContatoDAO {
             conn = ConnectionFactory.createConnectionToMySQL(); // Conexão com o banco
 
             // Criar um statement para executar a query
-            assert conn != null;
             pstm = conn.prepareStatement(sql); // Statement para executar a query
 
             // Adicionar o id do contato que será deletado
-            pstm.setInt(1, contato.getId()); // id do contato que será deletado
+            pstm.setLong(1, contato.getId()); // id do contato que será deletado
 
             pstm.execute(); // Executando a query
 
