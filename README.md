@@ -1,4 +1,4 @@
-# CRUD JAVA MYSQL 
+# CRUD JAVA JDBC MYSQL 
 
 ## Objetivo do projeto
  - Criar um CRUD (Create, Read, Update, Delete) em Java com MySQL
